@@ -8,6 +8,7 @@ import java.util.Random;
 
 @Controller
 public class HomeController {
+    // class homecontroller
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String showPage(){
